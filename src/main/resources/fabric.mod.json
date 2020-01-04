@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "addsno",
+  "version": "${version}",
+
+  "name": "Addsno Ice Cream Mod",
+  "description": "Adds a variety of ice cream and an ice cream machine to Minecraft.",
+  "authors": [
+    "Niels567"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/addsno/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.example.ExampleMod",
+      "niels567.addsno.Main"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
